@@ -1,0 +1,16 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+Foo .. Bar : uses
+Foo o.. Bar : contains
+Foo *.. Bar : aggregates
+
+One -- Two : uses
+One o-- Two : contains
+One *-- Two : aggregates
+
+Three -- Four : uses >
+Four -- Five : issues >
+Six --> Seven : uses >
+
+@enduml
