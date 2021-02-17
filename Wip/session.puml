@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class AppSession implements AppSessionInterface
+class Mock_AppSession extends AppSession
+class AppSessionStub implements AppSessionInterface
+class CliSession implements AppSessionInterface
+
+@enduml
